@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.658.1",
+    "@supabase/supabase-js": "^2.45.4",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.6",
+    "vite": "^5.4.8"
+  }
+}
